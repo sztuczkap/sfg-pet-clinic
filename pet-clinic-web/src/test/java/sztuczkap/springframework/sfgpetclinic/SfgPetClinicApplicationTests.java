@@ -1,4 +1,4 @@
-package sfgpetclinic;
+package sztuczkap.springframework.sfgpetclinic;
 
 
 import org.junit.Test;
