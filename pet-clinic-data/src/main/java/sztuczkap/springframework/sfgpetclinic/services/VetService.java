@@ -1,13 +1,5 @@
 package sztuczkap.springframework.sfgpetclinic.services;
 
-import sztuczkap.springframework.sfgpetclinic.model.Vet;
+public interface VetService<Vet, Long> {
 
-import java.util.Set;
-
-public interface VetService {
-    Vet findById(Long id);
-
-    Vet save(Vet vet);
-
-    Set<Vet> findAll();
 }
