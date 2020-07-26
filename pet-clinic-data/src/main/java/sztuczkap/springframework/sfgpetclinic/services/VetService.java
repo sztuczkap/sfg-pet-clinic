@@ -1,5 +1,7 @@
 package sztuczkap.springframework.sfgpetclinic.services;
 
-public interface VetService<Vet, Long> {
+import sztuczkap.springframework.sfgpetclinic.model.Vet;
+
+public interface VetService extends CrudService<Vet, Long> {
 
 }
